@@ -47,3 +47,48 @@ Help Adam gain confidence in further development by automatically testing the mo
 - Please submit a link to your finished repository when you are ready
 
 ## Good luck and happy coding! :)
+
+
+# BDD Automation Framework Python BDD and TDD Approach 
+
+BDD framework built using Python + Pytest and Python +  Behave to support automation testing.
+
+## Getting Started
+
+# Install the required items
+1. Remove your current version of virtualenv (optional)
+pip uninstall virtualenv
+
+2. Install pipenv
+pip install --user pipenv
+
+3. Testing the installation
+pipenv --version
+
+4. Install dependencies
+pipenv install Pipfile 
+If you have multiple python version use below command
+pipenv install --python=/usr/bin/<python_directory> Pipfile
+
+5. Switch to pipenv virtual environment
+pipenv shell
+
+
+### Prerequisites
+
+```
+Python version >= 3.7.0
+```
+
+## Running the tests
+
+```
+To run scripts for uitests: behave features/modules --tags=smoke --junit --no-capture
+```
+
+## Execution with Behave Allure Reporting.
+
+```
+1- behave -f allure_behave.formatter:AllureFormatter -o python_automation/allure_report python_automation\tests\ui\features\main_page.feature
+2- behave -f allure_behave.formatter:AllureFormatter -o python_automation/allure_report
+```

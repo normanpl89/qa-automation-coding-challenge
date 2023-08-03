@@ -1,0 +1,16 @@
+[packages]
+pytest = "*"
+pyhamcrest = "*"
+allure-pytest = "*"
+pipfile = "*"
+selenium = "*"
+
+
+[dev-packages]
+pytest-bdd = '*'
+behave='*'
+setuptools='*'
+allure-behave='*'
+
+[requires]
+python_version = "3.7"
