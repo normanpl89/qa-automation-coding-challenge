@@ -93,4 +93,5 @@ To run scripts for uitests: behave features/modules --tags=smoke --junit --no-ca
 2- behave -f allure_behave.formatter:AllureFormatter -o python_automation/allure_report
 ```
 
-![image](https://github.com/normanpl89/qa-automation-coding-challenge/assets/30607163/6fee7855-0134-44db-b194-a7d1d032af71)
+![image](https://github.com/normanpl89/qa-automation-coding-challenge/assets/30607163/b8d9c095-bbad-46ff-8bd5-321951fe3247)
+
